@@ -1,0 +1,24 @@
+body{
+    /* background-color: orangered; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    
+    display: inline-flex;
+    height: 70px;
+    width: 200px;
+    font-size: 60px;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(135deg,#14ffe9,#ffeb3b,#ff00e0);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
